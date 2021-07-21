@@ -1,10 +1,10 @@
 {
-  "name": "@rafaelgfx/material-survey",
-  "version": "1.0.41",
+  "name": "@soundingboardinc/material-survey",
+  "version": "1.0.42",
   "description": "Material UI Survey Framework",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rafaelgfx/material-survey"
+    "url": "https://github.com/sounding-board-labs/material-survey"
   },
   "main": "index.js",
   "scripts": {
