@@ -17,5 +17,22 @@ storiesOf("RatingQuestion", module).add("Basic", () => (
       midRateDescription: "Important",
       maxRateDescription: "Most Important"
     }}
+    onChangeAnswer={action("onChangeAnswer")}
+  />
+))
+
+storiesOf("RatingQuestion", module).add("Custom Ratings", () => (
+  <RatingQuestion
+    question={{
+      name: "rating-example-custom",
+      title: "How important is a college's reputation?",
+      type: "rating",
+      rateValues: [
+        { value: 1, text: 'Not important' },
+        { value: 2, text: 'Important' },
+        { value: 3, text: 'Very important' },
+      ]
+    }}
+    onChangeAnswer={action("onChangeAnswer")}
   />
 ))

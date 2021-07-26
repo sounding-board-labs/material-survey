@@ -46,10 +46,10 @@ export type BaseQuestion = {|
 
 export type QuestionChoice =
   | {
-      value: string,
+      value: string | number,
       text: string
     }
-  | string
+  | string | number
 
 export type TextQuestion = {
   ...BaseQuestion,
